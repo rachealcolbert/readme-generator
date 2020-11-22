@@ -1,10 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.titleOfProject}
+![License badge](https://img.shields.io/badge/license-${data.licenses}-green)
 ## Description 
 ${data.projectDescription}
 ## License
-![License badge](https://img.shields.io/badge/license-${data.licenses}-green)
+The license/licenses used with this project are ${data.licenses}.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -25,6 +26,10 @@ The creator of this project's email and GitHub is below.
 ${data.contributingInfo}
 ## Tests
 Use the ${data.commandTests} command to run a test.
+## Questions
+If you have any questions about this project, please contact the creator of the project. 
+- ${data.emailAddress}
+- ${data.gitHubUsername}
 `;
 }
 
