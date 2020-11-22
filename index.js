@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./Develop/utils/generateMarkdown')
+const generateMarkdown = require('./generateMarkdown')
 
 console.log('Hello! Create a README for your project by answering the following questions');
 
@@ -130,7 +130,8 @@ const questions = () => {
     ])
 };
 
-questions().then(answers => console.log(answers));
+questions()
+    .then(answers => console.log(answers));
 
 // function to write README file
 function writeToFile(fileName, data) {
