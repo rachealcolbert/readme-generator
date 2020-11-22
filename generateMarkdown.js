@@ -10,19 +10,21 @@ ${data.projectDescription}
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+## Table of Contents
+Make sure to add a screenshot of your project to this README.
 ## Installation
-The command that should be run to install dependencies is${commandDependencies}.
+The command that should be run to install dependencies is ${data.commandDependency}.
 ## Usage 
-${repoInfo}
+${data.repoInfo}
 Make sure to include a picture of your project. 
 ## Credits
-The creator of this project's email and GitHub is linked below. 
-${emailAddress}
-${gitHubUsername}
+The creator of this project's email and GitHub is below. 
+- ${data.emailAddress}
+- ${data.gitHubUsername}
 ## Contributing
-${contributingInfo}
+${data.contributingInfo}
 ## Tests
-Use the ${commandTests} command to run a test.
+Use the ${data.commandTests} command to run a test.
 `;
 }
 

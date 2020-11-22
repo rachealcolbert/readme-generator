@@ -80,7 +80,7 @@ const questions = () => {
             ]
         }, {
             type: 'input',
-            name: 'commandDependencies',
+            name: 'commandDependency',
             message: 'What command should be run to install dependencies?',
             default: 'npm i',
             validate: nameInput => {
