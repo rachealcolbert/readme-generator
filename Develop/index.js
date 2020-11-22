@@ -144,7 +144,7 @@ function writeToFile(fileName, data) {
 function init() {
     questions()
         .then(answers => {
-            writeToFile('README.md', generateMarkdown({
+            writeToFile('Develop/README.md', generateMarkdown({
                 ...answers
             }));
         })
