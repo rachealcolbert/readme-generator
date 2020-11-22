@@ -66,13 +66,13 @@ const questions = () => {
                     name: 'MIT',
                 },
                 {
-                    name: 'APACHE 2.0',
+                    name: 'APACHE2.0',
                 },
                 {
-                    name: 'GPL 3.0',
+                    name: 'GPL3.0',
                 },
                 {
-                    name: 'BSD 3',
+                    name: 'BSD3',
                 },
                 {
                     name: 'None',
@@ -82,6 +82,7 @@ const questions = () => {
             type: 'input',
             name: 'commandDependencies',
             message: 'What command should be run to install dependencies?',
+            default: 'npm i',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
@@ -94,6 +95,7 @@ const questions = () => {
             type: 'input',
             name: 'commandTests',
             message: 'What command should be run to run tests?',
+            default: 'npm test',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
