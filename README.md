@@ -7,6 +7,8 @@ You can quickly and easily generate a README file by using a command-line applic
 
 **Screenshot of Application:** 
 
+![Image of Application](assets/readme-generator-photo.png)
+
 ## Description 
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. The README includes the title of the project, a description, table of contents, installation instructions, how to use the project, the licenses with the project, contributing notes, and the project creator's information. 
 
