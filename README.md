@@ -18,7 +18,7 @@ The application will be invoked by using the following command: **node develop/i
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
+* [Contributing](#contributing)
 ## Installation
 The command that should be run to install dependencies is npm i.
 ## Usage 
