@@ -12,9 +12,9 @@ The license/licenses used with this project are ${data.licenses}.
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
-## Table of Contents
-Make sure to add a screenshot of your project to this README.
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Installation
 The command that should be run to install dependencies is ${data.commandDependency}.
 ## Usage 
