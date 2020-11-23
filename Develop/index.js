@@ -135,9 +135,6 @@ const questions = () => {
 
 // function to write README file
 function writeToFile(fileName, data) {
-    // fs.writeFile('README.md', generateMarkdown(data), err => {
-    //     if (err) throw err;
-    //     console.log('Hell yeah!')
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 // function to initialize program
