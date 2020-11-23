@@ -4,6 +4,8 @@ function generateMarkdown(data) {
 ![License badge](https://img.shields.io/badge/license-${data.licenses}-green)
 ## Description 
 ${data.projectDescription}
+
+Make sure to include a picture of your project. 
 ## License
 The license/licenses used with this project are ${data.licenses}.
 ## Table of Contents
@@ -17,7 +19,6 @@ Make sure to add a screenshot of your project to this README.
 The command that should be run to install dependencies is ${data.commandDependency}.
 ## Usage 
 ${data.repoInfo}
-Make sure to include a picture of your project. 
 ## Credits
 The creator of this project's email and GitHub is below. 
 - ${data.emailAddress}
